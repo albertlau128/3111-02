@@ -6,6 +6,7 @@ public class MobileComputer extends Computer{
 		secret = "MobileComp secret!";
 		bat=5;
 	}
+	@Override
 	public void work() { //override
 		if (bat>0) System.out.println("It's working on my lap. Bat level = "+(bat--));
 		else System.out.println("Running out of battery!");
