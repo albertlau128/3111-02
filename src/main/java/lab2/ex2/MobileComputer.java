@@ -1,6 +1,6 @@
 package lab2.ex2;
 
-public class MobileComputer extends Computer{
+public class MobileComputer extends Computer implements Chargeable{
 	private int bat;
 	public MobileComputer() {
 		secret = "MobileComp secret!";
