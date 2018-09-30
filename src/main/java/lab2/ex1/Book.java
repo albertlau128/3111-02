@@ -10,7 +10,9 @@ public class Book {
 	}
 	
 	public Book(String argu[]) {
-		chapters=argu;
+		chapters = new String[argu.length];
+		for(int i=0;i<argu.length;i++)
+			chapters[i]=argu[i];
 	}
 	
 	public String getChapter(int i) {
